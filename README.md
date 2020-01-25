@@ -9,6 +9,7 @@
   - [Table of contents](#table-of-contents)
   - [Why ?](#why)
       - [Here is the screenshots:](#here-is-the-screenshots)
+  - [Installation](#installation)
   - [Example Usage](#example-usage)
 
 ## Why ?
@@ -23,6 +24,15 @@ If you don't get what i'm talking about, maybe i will explain in essence: This h
 [![Capture 2](https://raw.githubusercontent.com/sutanlab/react-styles-hook/master/captures/capture-2.png)](https://raw.githubusercontent.com/sutanlab/react-styles-hook/master/captures/capture-2.png)
 
 [![Capture 1](https://raw.githubusercontent.com/sutanlab/react-styles-hook/master/captures/capture-3.png)](https://raw.githubusercontent.com/sutanlab/react-styles-hook/master/captures/capture-3.png)
+
+## Installation
+```bash
+# with npm
+$ npm i react-styles-hook --save
+
+# with yarn
+$ yarn add react-styles-hook
+```
 
 ## Example Usage
 
