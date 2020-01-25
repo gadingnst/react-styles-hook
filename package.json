@@ -1,0 +1,18 @@
+{
+  "name": "react-styles-hook",
+  "version": "1.0.0",
+  "description": "Simple hook for CSS styling in React JS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/sutanlab/react-styles-hook.git",
+  "author": "Sutan Nasution. <sutan.gnst@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.19",
+    "typescript": "^3.7.5"
+  }
+}
