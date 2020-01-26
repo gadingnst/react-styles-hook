@@ -22,5 +22,11 @@
     "styled hooks",
     "use styles",
     "react css styles"
-  ]
+  ],
+  "peerDependencies": {
+    "react": "^16.12.0"
+  },
+  "dependencies": {
+    "csstype": "^2.6.8"
+  }
 }
