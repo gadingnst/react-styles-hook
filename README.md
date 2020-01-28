@@ -27,6 +27,8 @@ If you don't get what i'm talking about, maybe i will explain in essence: This h
 
 [![Capture 1](https://raw.githubusercontent.com/sutanlab/react-styles-hook/master/captures/capture-3.png)](https://raw.githubusercontent.com/sutanlab/react-styles-hook/master/captures/capture-3.png)
 
+---
+
 ## Installation
 ```bash
 # with npm
@@ -37,7 +39,6 @@ $ yarn add react-styles-hook
 ```
 
 ## Example Usage
-
 ### Standard styles Example
 ```js
 import React from 'react'
