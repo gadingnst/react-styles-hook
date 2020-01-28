@@ -67,7 +67,7 @@ export default App
 
 ### Dynamic styles example
 ```js
-import React from 'react'
+import React, { useState } from 'react'
 import { useStyles } from 'react-styles-hook'
 
 const App = () => {
