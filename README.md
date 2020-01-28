@@ -11,6 +11,8 @@
       - [Here is the screenshots:](#here-is-the-screenshots)
   - [Installation](#installation)
   - [Example Usage](#example-usage)
+    - [Standard styles Example](#standard-styles-example)
+    - [Dynamic styles example](#dynamic-styles-example)
 
 ## Why ?
 In ReactJS, sometimes we have difficulty to styling because of limitations `types` intellisense in CSS properties. By using this hook we can find out what properties in CSS we can use.
@@ -36,6 +38,7 @@ $ yarn add react-styles-hook
 
 ## Example Usage
 
+### Standard styles Example
 ```js
 import React from 'react'
 import { useStyles } from 'react-styles-hook'
@@ -62,5 +65,38 @@ const styles = useStyles({
 export default App
 ```
 
+### Dynamic styles example
+```js
+import React from 'react'
+import { useStyles } from 'react-styles-hook'
+
+const App = () => {
+    const [isPink, switchPink] = useState(false)
+
+    const styles = useStyles({
+        heading: {
+            width: '100%',
+            backgroundColor: isPink ? '#f75172' : '#333333'
+        }
+    })
+
+    const handleClick = () => {
+        switchPink(!isPink)
+    }
+
+    return (
+        <>
+            <h1 styles={styles.heading}>Hello React 👋</h1>
+            <button onClick={handleClick}>
+                Click Me!
+            </button>
+        </>
+    )
+}
+
+export default App
+```
+
 ---
+
 © 2020 Sutan Gading Fadhillah Nasution.
