@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "csstype": "2.6.8",
-    "typescript": "3.7.5"
+    "typescript": "3.9.10"
   },
   "keywords": [
     "react hooks",
