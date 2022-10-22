@@ -13,7 +13,7 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "csstype": "2.6.8",
+    "csstype": "3.0.9",
     "typescript": "3.7.5"
   },
   "keywords": [
